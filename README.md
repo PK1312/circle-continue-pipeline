@@ -6,3 +6,4 @@ The most fundamental understanding for the dynamic config feature is that users 
 
 In this demonstration, we generate `/tmp/another-config.yml` in the setup job, and then spool it for the main job. The execution of `another-config.yml` is triggered by calling [`POST /pipeline/continue`](https://circleci.com/docs/api/v2/#operation/continuePipeline) with `continuation-key` and `configuration` parameters conveyed as the request body encoded in JSON.
  
+cats!
